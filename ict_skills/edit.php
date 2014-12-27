@@ -26,10 +26,8 @@ $row = mysqli_fetch_assoc($result);
         <option <?php if ($row ['skills']== "database") echo 'selected'; ?> value="database">Database</option>
         <option <?php if ($row ['skills']== "xpath/xquery/xlink/xpointer") echo 'selected'; ?> value="xpath/xquery/xlink/xpointer">Xpath/Xquery/Xlink/Xpointer</option>
 
-
     </select>
     <br>
-
 
     <label>Skill Description:</label>
     <input type="text" name="sdescription" value="<?php echo $row['sdescription'];?>" />
