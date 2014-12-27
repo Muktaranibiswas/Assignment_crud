@@ -1,0 +1,44 @@
+<html>
+
+<body>
+
+<form action="add.php"method = 'POST'>
+    <h3><B>ICT Skills Information:</B></h3>
+
+    <label>Experience Category : </label>
+    <select name="ecategory">
+        <option value="computer enginering" selected>Computer Enginering </option>
+        <option value="accounting">Accounting</option>
+        <option value="bank/non-bank">Bank/non-bank</option>
+        <option value="design/creative">Design/creative</option>
+    </select>
+    <br>
+    <label>Skills: </label>
+    <select name="skills">
+        <option selected>choose your skills</option>
+        <option value="programming">Programming</option>
+        <option value="database">Database</option>
+        <option value="xpath/xquery/xlink/xpointer">Xpath/Xquery/Xlink/Xpointer</option>
+    </select>
+    <br>
+    <label>Skill Description : </label>
+    <input type ="text" name = "sdescription">
+    <br>
+    <label> Extracurricular Activities:  </label>
+    <input type ="text" name = "eactivities">
+
+
+<br>
+    <button type = "submit" name = "submit">Submit</button>
+    <button type = "reset" name = "reset">Cancel</button>
+</form>
+
+
+
+
+
+</body>
+</html>
+
+
+<a href="list.php">Go to list</a>
