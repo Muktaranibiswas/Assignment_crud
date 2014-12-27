@@ -20,7 +20,6 @@ $row = mysqli_fetch_assoc($result);
     <br>
     <label>Address:</label>
     <input type="text" name="address" value="<?php echo $row['address'];?>" />
-
     <br>
     <label>Relation:</label>
     <input type="text" name="relation" value="<?php echo $row['relation'];?>" />
@@ -42,7 +41,6 @@ $row = mysqli_fetch_assoc($result);
     <input type="text" name="email" value="<?php echo $row['email'];?>" />
 
     <br>
-
     <button type="submit">Save</button>
     <button type="reset">Cancel</button>
 
